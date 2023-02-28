@@ -28,7 +28,7 @@ function modelLoaded(){
 }
 //define function check() 
 function check(){
-    img=document.getElementById("captured_image").src;
+    img=document.getElementById("captured_image");
     classifier.classify(img, gotResult);
 }
 
